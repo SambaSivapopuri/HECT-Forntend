@@ -1,1 +1,95 @@
-hiiii
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Institution Page</title>
+    <style>
+
+        .center-container {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        
+        .form-section {
+            max-width: 600px;
+            width: 100%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid center-container">
+        <div class="form-section">
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="institutionName" class="form-label">Institution Name:</label>
+                    <input type="text" id="institutionName" class="form-control" name="institutionName">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="email1" class="form-label">Email:</label>
+                    <input type="email" id="email1" class="form-control" name="email1">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="mobileNumber" class="form-label">Mobile Number:</label>
+                    <input type="mobilenumber" id="mobileNumber" class="form-control" name="mobileNumber">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="username" class="form-label">Username:</label>
+                    <input type="text" id="username" class="form-control" name="username">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="password" class="form-label">Password:</label>
+                    <input type="password" id="password" class="form-control" name="password">
+                </div>
+
+                <div class="col-md-6">
+                    <label for="address" class="form-label">Address:</label>
+                    <input type="text" id="address" class="form-control" name="address">
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-12">
+                    <label for="message" class="form-label">Contact Person Detail:</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" placeholder="Enter your message here..."></textarea>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
